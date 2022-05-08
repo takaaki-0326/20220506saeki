@@ -1,0 +1,76 @@
+/** {
+  border: solid 1px red;
+}*/
+
+header {
+  display: flex;
+  justify-content: space-between;
+    width: 100%;
+}
+
+.company {
+  color: #041880;
+  width: 100%;
+ }
+
+.h1 {
+  width: 13%;
+  text-align: right;
+
+}
+
+.ul {
+  display: flex;
+  width: 30%;
+  position: relative;
+  align-items: center;
+  
+}
+
+.information {
+  position: absolute;
+  display: inline-block;
+  color: #041880;
+  font-weight: bolder;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  padding-left: 0%;
+  box-sizing: border-box;
+  
+}
+
+main {
+  /*display: flex;
+  flex-direction: column;
+  */
+  height: 100px;
+}
+
+img {
+  width: 50%;
+  position: relative;
+  top: 60px;
+  left: 50%;
+
+}
+
+main h2 {
+  font-size: 400%;
+  font-weight: lighter;
+  position: relative;
+  top: -175px;
+}
+
+
+.background__blue {
+  background: #041880;
+  height: 180px;
+  width: 80%;
+  z-index: -10;
+  position: relative;
+  top: -250px;
+}
+
+
